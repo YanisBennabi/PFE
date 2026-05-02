@@ -1,0 +1,83 @@
+:root {
+  --header-bg: #1a3a4a;
+  --header-border: #ffff;
+  --text-white: #ffffff;
+  --text-gray: #a0a0a0;
+  --sidebar-bg: #1a3a4a;
+  --sidebar-hover: rgba(255, 255, 255, 0.07);
+  --sidebar-active-border: #4db8ff;
+  --sidebar-submenu-bg: rgba(0, 0, 0, 0.18);
+  --sidebar-width: 250px;
+  --header-height: 60px;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;       
+  cursor: pointer;      
+}
+.text-navy {
+    color: #1a3a4a;
+}
+
+.btn-navy {
+    background-color: #295971;
+    color: white;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-navy:hover {
+    background-color: #1a3a4a;
+    color: white;
+}
+
+.form-control, .form-select {
+    border: 1px solid #e2e8f0;
+    padding: 0.6rem 0.8rem;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #4db8ff;
+    box-shadow: 0 0 0 3px rgba(77, 184, 255, 0.1);
+    background-color: #fff;
+}
+
+.form-label {
+    color: #475569;
+    margin-bottom: 0.4rem;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+#configPCSection { 
+    display: none; 
+    border-top: 4px solid #295971; 
+}
+
+.icon-circle {
+    width: 32px;
+    height: 32px;
+    background: #f1f5f9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e2e8f0;
+}
+
+#configPCSection .form-control {
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff !important;
+}
+
+#configPCSection .form-label {
+    font-size: 13px;
+    color: #334155;
+    margin-bottom: 8px;
+}
