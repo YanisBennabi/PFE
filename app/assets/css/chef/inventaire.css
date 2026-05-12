@@ -1,0 +1,52 @@
+/* Badges d'état personnalisés */
+.badge-status {
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.bg-success-soft {
+  background-color: #e6fffa;
+  color: #319795;
+}
+
+.bg-danger-soft {
+  background-color: #fff5f5;
+  color: #e53e3e;
+}
+
+.bg-warning-soft {
+  background-color: #fffaf0;
+  color: #d69e2e;
+}
+
+.bg-secondary-soft {
+  background-color: #edf2f7;
+  color: #718096;
+}
+
+/* Ajustements tableau */
+.table thead th {
+  border-top: none;
+  background-color: transparent;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0,0,0,0.01);
+}
+
+/* Bouton spécifique */
+.btn-teal {
+  background-color: #295971;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 16px;
+  transition: all 0.2s;
+}
+
+.btn-teal:hover {
+  background-color: #1a3a4a;
+  color: white;
+}

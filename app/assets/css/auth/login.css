@@ -1,0 +1,128 @@
+:root {
+  --bg-dark: #1a3a4a;        
+  --card-bg: #ffffff;
+  --primary-teal: #336d7c;   
+  --primary-hover: #26525d;
+  --text-main: #333333;
+  --text-muted: #6c757d;
+  --border-color: #e9ecef;
+  --input-focus: #dee2e6;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-dark);
+}
+
+.auth-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.auth-card {
+  background: var(--card-bg);
+  width: 100%;
+  max-width: 440px;
+  padding: 45px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.auth-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo-icon {
+  background-color: #e1f1f6;
+  color: var(--primary-teal);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0 auto 15px;
+  font-size: 1.5rem;
+}
+
+.auth-logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--bg-dark);
+  margin-bottom: 5px;
+}
+
+.auth-logo p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+.form-label-custom {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.form-control-custom {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+  box-sizing: border-box; 
+}
+
+.form-control-custom:focus {
+  outline: none;
+  border-color: var(--primary-teal);
+  box-shadow: 0 0 0 3px rgba(51, 109, 124, 0.1);
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-teal);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-primary-custom i {
+  margin-right: 8px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 25px 0;
+}
+
+.text-muted-sm {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

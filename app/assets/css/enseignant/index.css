@@ -1,0 +1,94 @@
+:root {
+  --header-bg: #1a3a4a;
+  --header-border: #ffff;
+  --text-white: #ffffff;
+  --text-gray: #a0a0a0;
+  --sidebar-bg: #1a3a4a;
+  --sidebar-hover: rgba(255, 255, 255, 0.07);
+  --sidebar-active-border: #4db8ff;
+  --sidebar-submenu-bg: rgba(0, 0, 0, 0.18);
+  --sidebar-width: 250px;
+  --header-height: 60px;
+}
+
+
+.text-navy { color: #1a3a4a; }
+
+/* Style des cartes "Boutons" */
+.action-card {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.action-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+}
+
+.action-report { border-left: 5px solid #dc3545; background: #fff5f5; }
+.action-list { border-left: 5px solid #1a3a4a; }
+
+.action-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.icon-danger { background: #fee2e2; color: #dc3545; }
+.icon-primary { background: #e0f2fe; color: #0ea5e9; }
+
+.action-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a3a4a;
+}
+
+.action-subtitle {
+    margin: 0;
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* Style des tableaux */
+.custom-table thead th {
+    background-color: #f8fafc;
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-top: none;
+}
+
+.custom-table tbody td {
+    padding: 15px 20px;
+    font-size: 13.5px;
+    color: #334155;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+/* Badges */
+.badge {
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.badge-critique { background: #fee2e2; color: #991b1b; }
+.badge-mineure { background: #e0e7ff; color: #3730a3; }
+.badge-ouvert { background: #fff1f1; color: #dc3545; border: 1px solid #fee2e2; }
+.badge-resolu { background: #f0fdf4; color: #166534; border: 1px solid #dcfce7; }
+.badge-majeure { background: #fff3cd; color: #856404; }
+.badge-en-attente-de-piece { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; }

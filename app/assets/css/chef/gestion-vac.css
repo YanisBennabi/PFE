@@ -1,0 +1,47 @@
+/* Zone d'alerte Orange */
+.alert-custom-orange {
+    background-color: #fffaf0;
+    border: 1px solid #feebc8;
+    border-radius: 12px;
+    padding: 20px;
+    color: #c05621;
+}
+
+.bg-orange {
+    background-color: #ed8936;
+}
+
+/* Boutons spécifiques à la validation */
+.btn-success-light {
+    background-color: #e6fffa;
+    color: #319795;
+    border: 1px solid #b2f5ea;
+}
+
+.btn-danger-light {
+    background-color: #fff5f5;
+    color: #e53e3e;
+    border: 1px solid #feb2b2;
+}
+
+.btn-success-light:hover, .btn-danger-light:hover {
+    filter: brightness(0.95);
+}
+
+/* Styles badges et utilitaires */
+.badge-status {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bg-success-soft { background-color: #e6fffa; color: #319795; }
+.bg-secondary-soft { background-color: #edf2f7; color: #718096; }
+.btn-danger-soft { background-color: #fff5f5; color: #e53e3e; border: none; font-size: 11px; font-weight: 600; padding: 4px 12px; border-radius: 6px; }
+
+.extra-small {
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}

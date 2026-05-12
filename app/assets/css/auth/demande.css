@@ -1,0 +1,88 @@
+:root {
+            --bg-dark: #1a3a4a;
+            --btn-teal: #295971;
+            --text-muted: #64748b;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .request-card {
+            background: white;
+            width: 100%;
+            max-width: 500px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .app-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #f1f5f9;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: var(--btn-teal);
+        }
+
+        .form-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        .form-control, .form-select {
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .form-control:focus {
+            border-color: var(--btn-teal);
+            box-shadow: 0 0 0 3px rgba(41, 89, 113, 0.1);
+        }
+
+        .btn-request {
+            background-color: var(--btn-teal);
+            color: white;
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            border: none;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: opacity 0.2s;
+        }
+
+        .btn-request:hover {
+            opacity: 0.9;
+            color: white;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .back-link:hover {
+            color: var(--btn-teal);
+        }

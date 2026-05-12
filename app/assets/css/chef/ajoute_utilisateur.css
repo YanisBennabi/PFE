@@ -1,0 +1,31 @@
+/* Style pour la zone d'icône en haut du formulaire d'ajout */
+.icon-box-add {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-teal-soft {
+    background-color: rgba(41, 89, 113, 0.1);
+}
+
+.text-teal {
+    color: #295971;
+}
+
+/* Style des switches Bootstrap */
+.form-check-input:checked {
+    background-color: #295971;
+    border-color: #295971;
+}
+
+/* Boutons secondaires */
+.btn-light {
+    background-color: #f8fafc;
+    color: #64748b;
+    font-weight: 600;
+    font-size: 14px;
+}

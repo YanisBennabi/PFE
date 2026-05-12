@@ -1,0 +1,62 @@
+/* Style des cartes de signalement */
+.report-card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.report-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08) !important;
+}
+
+
+.bg-danger-soft { 
+    background-color: #ffe3e3; 
+    color: #e03131;
+    font-weight: 600;
+}
+
+.bg-warning-soft { 
+    background-color: #fff3bf; 
+    color: #f08c00;
+    font-weight: 600;
+}
+
+.bg-minor-soft {
+    background: #EEF2FF;
+    color: #4338CA;
+    font-weight: 600;
+}
+
+.bg-resolve-soft {
+    background: #e6f4ed;
+    color: #1a7a4a;
+    font-weight: 600;
+}
+
+/* Harmonisation texte */
+.text-navy {
+    color: #1a3a4a !important;
+}
+
+.small {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Badges */
+.badge {
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.badge-critique { background: #fee2e2; color: #991b1b; }
+.badge-mineure { background: #e0e7ff; color: #3730a3; }
+.badge-ouvert { background: #fff1f1; color: #dc3545; border: 1px solid #fee2e2; }
+.badge-resolu { background: #f0fdf4; color: #166534; border: 1px solid #dcfce7; }
+.badge-majeure { background: #fff3cd; color: #856404; }
+.badge-en-attente-de-piece { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+

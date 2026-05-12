@@ -1,0 +1,49 @@
+/* Conteneur principal qui pousse le contenu à droite de la sidebar */
+.main-content {
+    margin-left: 260px; /* Largeur de votre sidebar */
+    padding: 40px;
+    background-color: #f8fafd;
+    min-height: 100vh;
+}
+
+/* Alignement horizontal des cartes */
+.labs-grid {
+    display: flex;         /* Active l'alignement horizontal */
+    flex-wrap: wrap;      /* Permet de passer à la ligne si pas assez de place */
+    gap: 25px;            /* Espace entre les cartes */
+}
+
+/* Style des cartes individuelles */
+.lab-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    width: 280px;         /* Largeur fixe pour forcer l'alignement côte à côte */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style du texte à l'intérieur */
+.lab-name { font-weight: 700; color: #1a3a4a; margin-bottom: 5px; }
+.lab-type { color: #8c98a4; font-size: 0.85rem; margin-bottom: 15px; }
+.lab-capacity { color: #4a5568; font-size: 0.9rem; margin-bottom: 25px; }
+
+/* Bouton Voir planning */
+.btn-view-planning {
+    text-decoration: none;
+    color: #295d7a;
+    border: 1px solid #295d7a;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    text-align: center;
+    width: fit-content;
+    transition: all 0.2s;
+}
+
+.btn-view-planning:hover {
+    background-color: #295d7a;
+    color: white;
+}
